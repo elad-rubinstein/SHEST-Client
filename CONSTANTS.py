@@ -1,7 +1,10 @@
-""" CONSTANTS module """
+""" client constants """
 
-title_massage = "Hy there! Please type a command and I will execute it for you"\
-        ":\nupload: upload <path>\ndownload: download <path>"
-download_path = 'http://127.0.0.1:8000/download/'
-upload_path = 'http://127.0.0.1:8000/upload/'
-regular_path = 'http://127.0.0.1:8000/regular/'
+ADDRESS = "127.0.0.1"
+PORT = "8000"
+DOWNLOAD_PATH = f'http://{ADDRESS}:{PORT}/download/'
+UPLOAD_PATH = f'http://{ADDRESS}:{PORT}/upload/'
+REGULAR_PATH = f'http://{ADDRESS}:{PORT}/regular/'
+DOWNLOAD_COMMAND = 'download'
+UPLOAD_COMMAND = 'upload'
+KEY = "BccKLSpQGIdcP5CYpEQ-nPEQhMuNmFMguTkf7gyyIf0="
